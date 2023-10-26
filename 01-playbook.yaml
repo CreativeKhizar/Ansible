@@ -1,6 +1,6 @@
 # Playbook
 - name: ping the node
-  hosts: mongdb
+  hosts: mongodb
   tasks:
   - name: pinging the server
     ansible.builtin.ping:
