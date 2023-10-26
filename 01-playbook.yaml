@@ -2,5 +2,5 @@
 name: ping the node
 hosts: mongdb
 tasks:
--name: pinging the server
+- name: pinging the server
   ansible.builtin.ping:
