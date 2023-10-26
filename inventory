@@ -1,24 +1,3 @@
-54.196.52.140
-16.221.45.160
-
 [mongodb]   #   this is group
 roboshop-us-dev-db-mongodb-01.buyrobos.online
 
-[cart]
-roboshop-cart-us-prod-app-cart-01.buyrobos.online
-roboshop-cart-us-prod-app-cart-02.buyrobos.online
-roboshop-cart-us-prod-app-cart-03.buyrobos.online
-
-[mysql]
-roboshop-mysql-us-dev-db-mysql-01.buyrobos.online
-
-[user]
-roboshop-user-us-dev-app-user-01.buyrobos.online
-
-[app:children]  # This is a group of groups
-cart
-user
-
-[db:children]   # This is a group of groups
-mysql
-mongodb
